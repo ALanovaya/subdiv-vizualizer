@@ -154,8 +154,7 @@
 						return new THREE.DodecahedronGeometry( 0.6 );
 
 					case 'icosahedron':
-						return new THREE.IcosahedronGeometry( 0.6 );
-
+						return new THREE.SphereGeometry( 0.6, 8, 4 );
 					case 'lathe':
 
 						// Sine Wave
@@ -179,7 +178,7 @@
 						return new THREE.OctahedronGeometry( 0.7 );
 
 					case 'sphere':
-						return new THREE.SphereGeometry( 0.6, 8, 4 );
+						return new THREE.IcosahedronGeometry( 0.6 );
 
 					case 'tetrahedron':
 						return new THREE.TetrahedronGeometry( 1.8 );
